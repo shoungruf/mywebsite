@@ -1,0 +1,29 @@
+import React, { Component } from 'react';
+import insta from './SliderButtons/InstaIcon.svg';
+import fb from './SliderButtons/fbIcon.svg';
+import github from './SliderButtons/githubIcon.svg';
+import mail from './SliderButtons/mail.svg';
+import lnkedin from './SliderButtons/linkedin-icon.svg';
+
+
+import './App.css';
+
+
+class FrameSliderButtons extends Component {
+  render() {
+    
+    return (
+       <div>
+        <img src={insta} className="App-logo"  />
+     <img src={fb} className="App-logo"  />
+    <img src={github} className="App-logo"  />
+     <img src={mail} className="App-logo"  />
+    <img src={lnkedin} className="App-logo"  />
+    </div>
+    );
+
+    // ...
+  }
+}
+
+export default FrameSliderButtons; 

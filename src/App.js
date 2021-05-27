@@ -9,6 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
+import FrameSliderButtons from './FrameSliderButtons';
 
 
 export default function BasicExample() {
@@ -16,20 +17,49 @@ export default function BasicExample() {
     <Router>
       <div >
         <header className="App-Frame">
-          <div class="container">
+        <div class="container">              
             <div class="row">
-              <div class="col-md-4">
+          
+              <div class="col-md-6">
+             
                 <Link to="/" className="Header-buttons" >Home</Link>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-1">
 
                 <Link to="/about" className="Header-buttons" >About</Link>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-1">
 
-                <Link to="/dashboard" className="Header-buttons">Work</Link>
+                <Link to="/work" className="Header-buttons">Work</Link>
 
               </div>
+              <div class="col-md-1">
+
+                <Link to="/resume" className="Header-buttons">Resume</Link>
+
+              </div>
+              <div class="col-md-1">
+
+                <Link to="/blog" className="Header-buttons">Blog</Link>
+
+              </div>
+              <div class="col-md-1">
+
+                <Link to="/contact" className="Header-buttons">Contact</Link>
+
+              </div>
+              <div class="line"></div>
+              <div class="container">              
+        <div class="row">
+        <div class="col-md-1" >
+        <FrameSliderButtons/>
+        </div><div class="col-md-3">
+          <text className="TitleClass" > Shoungruf Raina </text>
+        </div>
+        </div>
+        </div>
+              
+              <div class="line"></div>
             </div>
           </div>
 
@@ -47,7 +77,16 @@ export default function BasicExample() {
             <Route path="/about">
               <Button />
             </Route>
-            <Route path="/dashboard">
+            <Route path="/work">
+              {/* <Button /> */}
+            </Route>
+            <Route path="/resume">
+              {/* <Button /> */}
+            </Route>
+            <Route path="/blog">
+              {/* <Button /> */}
+            </Route>
+            <Route path="/contact">
               {/* <Button /> */}
             </Route>
           </Switch>
