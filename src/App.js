@@ -1,35 +1,6 @@
 import logo from './logo.svg';
- import './App.css';
- import Button from './Button';
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-       
-//         <Button />
-//         <p>
-//           <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
+import './App.css';
+import Button from './Button';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -37,53 +8,53 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 
-// This site has 3 pages, all of which are rendered
-// dynamically in the browser (not server rendered).
-//
-// Although the page does not ever refresh, notice how
-// React Router keeps the URL up to date as you navigate
-// through the site. This preserves the browser history,
-// making sure things like the back button and bookmarks
-// work properly.
 
 export default function BasicExample() {
   return (
     <Router>
-      <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/dashboard">Dashboard</Link>
-          </li>
-        </ul>
+      <div >
+        <header className="App-Frame">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <Link to="/" className="Header-buttons" >Home</Link>
+              </div>
+              <div class="col-md-4">
 
-        <hr />
+                <Link to="/about" className="Header-buttons" >About</Link>
+              </div>
+              <div class="col-md-4">
 
-        {/*
+                <Link to="/dashboard" className="Header-buttons">Work</Link>
+
+              </div>
+            </div>
+          </div>
+
+          {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
           matches the current URL. Use a <Switch> any time
           you have multiple routes, but you want only one
           of them to render at a time
         */}
-        <Switch>
-          <Route exact path="/">
-            <Button />
-          </Route>
-          <Route path="/about">
-            <Button />
-          </Route>
-          <Route path="/dashboard">
-            <Button />
-          </Route>
-        </Switch>
+          <Switch>
+            <Route exact path="/">
+              {/* <Button /> */}
+            </Route>
+            <Route path="/about">
+              <Button />
+            </Route>
+            <Route path="/dashboard">
+              {/* <Button /> */}
+            </Route>
+          </Switch>
+        </header>
+
       </div>
+
     </Router>
   );
 }
