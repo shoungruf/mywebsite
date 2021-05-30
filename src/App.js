@@ -1,28 +1,34 @@
 
 import './App.css';
-
 import React from "react";
-
 import 'bootstrap/dist/css/bootstrap.css';
-
-
-import HomePage from './HomePage'; 
+import HomePage from './HomePage';
+import WorkPage from './WorkPage';
+import ResumePage from './ResumePage';
+import BlogPage from './BlogPage';
 import AboutPage from './AboutPage';
+import ContactPage from './ContactPage';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import Header from './Header';
 
-
-
-export default function BasicExample() {
+function App() {
   return (
-    <>
-    <HomePage/>
-    {/* <AboutPage /> */}
-    </>
+    <div className='App'>
+      <Router>
+        <Route path='/:page' component={Header} />
+        <Route exact path='/' component={Header} />
+
+        <Route exact path='/' component={HomePage} />
+        <Route exact path='/home' component={HomePage} />
+        <Route exact path='/about' component={AboutPage} />
+        <Route exact path='/work' component={WorkPage} />
+        <Route exact path='/contact' component={ContactPage} />
+        <Route exact path='/blog' component={BlogPage} />
+        <Route exact path='/resume' component={ResumePage} />
+      </Router>
+    </div>
   );
 }
 
-// You can think of these components as "pages"
-// in your app.
-
-
-
+export default App;

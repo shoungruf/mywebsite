@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #3E31D2;
+    background-image: linear-gradient(to top right, #8923A3,#3E31D2 );
 }
 
 .App-logo {
@@ -31,8 +33,8 @@
 }
 
 .App-Frame{
-background-color: #3E31D2; 
-  background-image: linear-gradient(to top right, #8923A3,#3E31D2 );
+/* background-color: #3E31D2; 
+  background-image: linear-gradient(to top right, #8923A3,#3E31D2 ); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -53,10 +55,12 @@ background-color: #3E31D2;
 } 
 .line{
   /* width: 112px; */
-height: 350px;
+height: 20em;
 border-left: 1px solid white;
 position: relative;
-
+padding-left: 55em;
+margin-bottom: 0.5em;
+margin-top: 1em;
 }
 
 .TitleClass{
