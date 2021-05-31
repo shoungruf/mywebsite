@@ -6,8 +6,13 @@ import './App.css';
 class Button extends Component {
   render() {
     
-    return <img src={logo} className="App-logo" alt="logo" />;
-    // ...
+    return (
+    <div>
+      <button>ContactMe</button>
+      </div>
+  )
+      //  <img src={logo} className="App-logo" alt="logo" />;
+    
   }
 }
 

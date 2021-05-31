@@ -6,9 +6,13 @@ class BlogPage extends Component {
     render() {
       
       return (
-         <div >
-         
-      </div>
+        <header className="App-Frame">
+
+        <div className="white-page">
+
+        </div>
+
+      </header>
       );
   
       // ...

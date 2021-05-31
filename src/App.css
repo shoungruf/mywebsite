@@ -40,7 +40,20 @@
   flex-direction: column;
   align-items: center;
   font-size: calc(12px);
+}
+.white-page{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  font-size: calc(12px);
+  background-color: white;
+  width: 800px;
+  height: 800px;
+  border-radius: 50px
 
+}
+.Custom-container{
+  columns: 3;
 }
 .Header-buttons{
   padding: 20px;
@@ -79,4 +92,61 @@ margin-top: 1em;
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Cards-custom{
+  width: 900px;
+  position: relative;
+  height: 500px;
+ 
+}
+
+.Cards-customcontainer{
+  position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.Black-strip{
+  display: inline-block;
+    /* flex-direction: column; */
+    align-items: center;
+    font-size: calc(12px);
+    background-color: black;
+    width: 1000px;
+    height: 500px;
+    /* border-radius: 50px; */
+    /* padding-top: 10px; */
+
+}
+
+.Black-stripText{
+  color: white;
+    font-size: 40px;
+    padding-top: 10px;
+    font-family: ui-sans-serif;
+    margin-top: 100px;
+    align-content: center;
+    display: grid;
+
+}
+
+.Black-stripButton{
+  background-color:white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
