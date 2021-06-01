@@ -33,3 +33,7 @@
 .headerlink-no-link {
   pointer-events: none;
 }
+
+.NameTitle{
+  align-items: flex-start;
+}

@@ -25,7 +25,7 @@ class AboutPage extends Component {
       <header className="App-Frame">
 
         <div className="white-page">
-
+          <text className="PageHeaders"> About</text>
         </div>
 
       </header>

@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import FrameSliderButtons from './FrameSliderButtons';
+import FrameSliderBottomButton from './FrameSliderBottomButton';
+
 // import AboutPage from './AboutPage';
 // import WorkPage from './WorkPage';
 // import ResumePage from './ResumePage';

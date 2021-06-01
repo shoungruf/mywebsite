@@ -1,7 +1,7 @@
 import { Button } from 'bootstrap';
 import React, { Component } from 'react';
 import './App.css';
-import FrameSliderButtons from './FrameSliderButtons';
+import FrameSliderBottomButton from './FrameSliderBottomButton';
 
 class ContactPage extends Component {
     render() {
@@ -15,10 +15,14 @@ class ContactPage extends Component {
        {/* need to place gap between previous page ending and black strip */}
         <div className="Black-strip">
             <text className="Black-stripText" >Create. Contribute. live. love . work. fitness. breathe</text>
+           <div className="FrameSliderBottomButtons">
+             
+            <FrameSliderBottomButton/>
            
-            <FrameSliderButtons/>
-            <button className="Black-stripButton"> Contact</button>
             </div>
+      
+            <button className="Black-stripButton"> Contact</button>
+             </div>
       </header>
       );
   

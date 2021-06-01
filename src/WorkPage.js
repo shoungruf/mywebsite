@@ -9,6 +9,7 @@ class WorkPage extends Component {
         <header className="App-Frame">
 
         <div className="white-page">
+        <text className="PageHeaders"> Work </text>
 <div className="Cards-custom">
            <div class="Cards-customcontainer">
             {/* put the image of card  */}
