@@ -9,7 +9,7 @@ class BlogPage extends Component {
         <header className="App-Frame">
 
         <div className="white-page">
-
+        <text className="PageHeaders"> Blog</text>
         </div>
 
       </header>
