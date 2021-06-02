@@ -169,8 +169,11 @@ margin-top: 1em;
 
 .PageHeaders{
   font-size: 40px;
-    font-weight: bold;
-    font-family: ui-serif;
-    padding-bottom: 600px;
-    margin-left: 30px;
+  font-weight: bold;
+  font-family: ui-serif;
+  padding-bottom: 600px;
+  margin-left: 30px;
+}
+.marginNeg2em {
+  margin-left: -2.5em;
 }

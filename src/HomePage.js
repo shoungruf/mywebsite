@@ -23,7 +23,7 @@ class HomePage extends Component {
           <div class="col-md-6" >
             <div class="container">
               <div class="row">
-                <div class="col-md-1" >
+                <div class="col-md-3 marginNeg2em" >
                   {/* {/* TODO: Frame slider buttons not in line */}
                   <FrameSliderButtons />
 

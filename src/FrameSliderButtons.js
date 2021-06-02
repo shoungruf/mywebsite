@@ -13,13 +13,13 @@ class FrameSliderButtons extends Component {
   render() {
     
     return (
-       <div>
+       <>
         <img src={insta} className="App-logo" alt="logo"  />
      <img src={fb} className="App-logo"  alt="logo"  />
     <img src={github} className="App-logo"  alt="logo"  />
      <img src={mail} className="App-logo"  alt="logo" />
     <img src={lnkedin} className="App-logo"  alt="logo"  />
-    </div>
+    </>
     );
 
     // ...
