@@ -177,3 +177,10 @@ margin-top: 1em;
 .marginNeg2em {
   margin-left: -2.5em;
 }
+
+.centerAlign {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

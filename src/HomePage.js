@@ -28,7 +28,7 @@ class HomePage extends Component {
                   <FrameSliderButtons />
 
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-9 centerAlign">
                   <text className="TitleClass" > Shoungruf Raina </text>
                 </div>
               </div>
