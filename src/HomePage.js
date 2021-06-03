@@ -66,7 +66,7 @@ import dp from "./SliderButtons/IMG_1666.jpeg"
 class HomePage extends Component {
   render() {
     return (
-      <div className='App-Frame'>
+      <div className='App-Frame container-image'>
          
         <div class="container container-image">
 
@@ -81,7 +81,7 @@ class HomePage extends Component {
                   <FrameSliderButtons />
 
                 </div>
-                <div class="col-md-9 centerAlign">
+                <div class="col-md-7">
                   <text className="TitleClass" > Shoungruf Raina </text>
                  
                   <text className="TitleClassDesc"> Designer and Developer</text>

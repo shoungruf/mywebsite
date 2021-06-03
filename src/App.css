@@ -219,4 +219,11 @@ margin-top: 1em;
 
 } */ 
 
+.mailto{
+  display:block;
+  
+}
 
+.dark-logo{
+  background-color: white;
+}
