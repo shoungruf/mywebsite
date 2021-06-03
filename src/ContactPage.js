@@ -21,7 +21,8 @@ class ContactPage extends Component {
            
             </div>
       
-            <button className="Black-stripButton"> Contact</button>
+            <button className="Black-stripButton"> Contact Me</button>
+            <text className="CopyrightLine"> Copyright © Shoungruf Raina. Developed by Shoungruf Raina</text>
              </div>
       </header>
       );
