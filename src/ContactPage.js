@@ -9,9 +9,12 @@ class ContactPage extends Component {
       return (
         <header className="App-Frame">
 
-        <div className="white-page">
+        {/* <div className="white-page"> */}
 
-        </div>
+        {/* <text className="PageHeaders"> Contact</text> */}
+
+
+        {/* </div> */}
        {/* need to place gap between previous page ending and black strip */}
         <div className="Black-strip">
             <text className="Black-stripText" >Create. Contribute. live. love . work. fitness. breathe</text>

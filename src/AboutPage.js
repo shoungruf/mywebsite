@@ -25,7 +25,23 @@ class AboutPage extends Component {
       <header className="App-Frame">
 
         <div className="white-page">
+        <div class="container container-image">
           <text className="PageHeaders"> About</text>
+          <text className="PageDetails">
+            I am really uncomfortable sharing about myself in public.
+            I would say I have mastered the art of “not letting anyone know”.
+           
+            But today, I would share a little bit.
+
+            I am software developer turning to visual designer. I like to draw animes and illustrate characters in the same genre.
+            I have interest in photography.
+            I am passionate about CrossFit and weight lifting.
+            I do enjoy working on front end programing.
+           </text>
+           </div>
+
+
+          
         </div>
 
       </header>

@@ -12,7 +12,7 @@
 }
 
 .container-image{
-  background-image: url('./SliderButtons/IMG_1666.jpeg');
+  /* background-image: url('./SliderButtons/IMG_1666.jpeg'); */
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,6 +193,15 @@ margin-top: 1em;
   font-family: ui-serif;
   padding-bottom: 600px;
   margin-left: 30px;
+}
+
+.PageDetails{
+  font-size: 20px;
+    /* font-family: ui-serif; */
+    padding-bottom: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
 .marginNeg2em {
   margin-left: -2.5em;
